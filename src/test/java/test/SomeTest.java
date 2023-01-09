@@ -52,8 +52,8 @@ public class devops{
 		  driver.get("https://app.dealmachine.com/login");
 
 		  // Enter a valid username and password
-		  driver.findElement(By.name("email")).sendKeys("umerhayat176@gmail.com");
-		  driver.findElement(By.name("password")).sendKeys("umer12345");
+		  driver.findElement(By.name("email")).sendKeys("rafay.tariq5844@gmail.com");
+		  driver.findElement(By.name("password")).sendKeys("rafay12345");
 
 		  // Click the login button
 		  driver.findElement(By.xpath("//*[@id=\"deal-signup-inner\"]/div[2]/div/div[1]/div/form/div[2]/div[1]/div/div/div")).click();
